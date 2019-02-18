@@ -18,4 +18,5 @@ class TimeLineControl(object):
     def clear_old_version(self,submit_dict):
         # submit_dict是检查完发送到CGTW的镜头信息
         # 清除submit_dict中的包含镜头上一个版本还老的素材(为了让文件不卡)
+        print('hello~')
         pass
