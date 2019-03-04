@@ -1,6 +1,10 @@
 # -*- coding:utf-8 -*-
 import hiero
 
+def test():
+    print 'hellow world'
+
+
 class TimeLineControl(object):
     def __init__(self):
         self.version = '0.1'

@@ -200,6 +200,7 @@ class UI_Main(QTabWidget):
             self.checkPageTable.sortItems(index, Qt.DescendingOrder)
             self.sort_upordown = True
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     demo = UI_Main()
